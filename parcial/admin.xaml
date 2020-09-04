@@ -1,0 +1,14 @@
+﻿<Page x:Class="parcial.admin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:parcial"
+      mc:Ignorable="d" 
+      d:DesignHeight="341" d:DesignWidth="794"
+      Title="admin" Background="#FFBDFF95">
+
+    <Grid>
+        <Label Content="Bienvenido Admin" HorizontalAlignment="Left" Margin="190,124,0,0" VerticalAlignment="Top" FontSize="48"/>
+    </Grid>
+</Page>

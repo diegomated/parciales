@@ -1,0 +1,30 @@
+﻿<Page x:Class="parcial.empleado"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:parcial"
+      mc:Ignorable="d" 
+      d:DesignHeight="341" d:DesignWidth="794"
+      Title="empleado" Background="#FF8CA2FF">
+
+    <Grid>
+        <Label Content="Empleado" HorizontalAlignment="Left" Margin="329,0,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <RadioButton Content="Alineado" HorizontalAlignment="Left" Margin="48,155,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="No Alineado" HorizontalAlignment="Left" Margin="48,175,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Especial" HorizontalAlignment="Left" Margin="48,195,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="117,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="117,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="523,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="292" Width="261" Background="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="293,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="177" Width="177" Background="White"/>
+        <Button Content="Agregar" HorizontalAlignment="Left" Margin="117,300,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="117,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="58,54,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cedula" HorizontalAlignment="Left" Margin="66,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cantidad" HorizontalAlignment="Left" Margin="57,234,0,0" VerticalAlignment="Top"/>
+        <Button Content="Confirmar Compra" HorizontalAlignment="Left" Margin="329,300,0,0" VerticalAlignment="Top" Width="109"/>
+        <Button Content="Borrar Todo" HorizontalAlignment="Left" Margin="346,276,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Pedido" HorizontalAlignment="Left" Margin="361,57,0,0" VerticalAlignment="Top"/>
+        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="633,10,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
