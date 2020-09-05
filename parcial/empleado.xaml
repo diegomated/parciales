@@ -9,22 +9,27 @@
       Title="empleado" Background="#FF8CA2FF">
 
     <Grid>
-        <Label Content="Empleado" HorizontalAlignment="Left" Margin="329,0,0,0" VerticalAlignment="Top" FontSize="22"/>
-        <RadioButton Content="Alineado" HorizontalAlignment="Left" Margin="48,155,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="No Alineado" HorizontalAlignment="Left" Margin="48,175,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Especial" HorizontalAlignment="Left" Margin="48,195,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="117,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="117,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="523,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="292" Width="261" Background="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="293,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="177" Width="177" Background="White"/>
-        <Button Content="Agregar" HorizontalAlignment="Left" Margin="117,300,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="117,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="329,0,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <TextBox Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="117,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtCedula" HorizontalAlignment="Left" Height="23" Margin="117,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtCantidadA" HorizontalAlignment="Left" Height="23" Margin="150,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
+        <TextBox Name="txtCantidadNA" HorizontalAlignment="Left" Height="23" Margin="150,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
+        <TextBox Name="txtCantidadE" HorizontalAlignment="Left" Height="23" Margin="150,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
+        <TextBlock Name="txtPedidos" HorizontalAlignment="Left" Margin="523,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="292" Width="261" Background="White"/>
+        <TextBlock Name="txtPedido" HorizontalAlignment="Left" Margin="293,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="177" Width="177" Background="White"/>
+        <Button Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="117,276,0,0" VerticalAlignment="Top" Width="75" Click="btnAgregar_Click"/>
         <Label Content="Nombre" HorizontalAlignment="Left" Margin="58,54,0,0" VerticalAlignment="Top"/>
         <Label Content="Cedula" HorizontalAlignment="Left" Margin="66,80,0,0" VerticalAlignment="Top"/>
-        <Label Content="Cantidad" HorizontalAlignment="Left" Margin="57,234,0,0" VerticalAlignment="Top"/>
-        <Button Content="Confirmar Compra" HorizontalAlignment="Left" Margin="329,300,0,0" VerticalAlignment="Top" Width="109"/>
-        <Button Content="Borrar Todo" HorizontalAlignment="Left" Margin="346,276,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Cantidad" HorizontalAlignment="Left" Margin="163,147,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnComprar" Content="Confirmar Compra" HorizontalAlignment="Left" Margin="329,300,0,0" VerticalAlignment="Top" Width="109" Click="btnComprar_Click"/>
+        <Button Name="btnBorrar" Content="Borrar Todo" HorizontalAlignment="Left" Margin="346,276,0,0" VerticalAlignment="Top" Width="75" Click="btnBorrar_Click"/>
         <Label Content="Pedido" HorizontalAlignment="Left" Margin="361,57,0,0" VerticalAlignment="Top"/>
         <Label Content="Pedidos" HorizontalAlignment="Left" Margin="633,10,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblcontenido" Content="" HorizontalAlignment="Left" Margin="32,319,0,-0.2" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label Content="Alineado" HorizontalAlignment="Left" Margin="66,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="No alineado" HorizontalAlignment="Left" Margin="66,195,0,0" VerticalAlignment="Top"/>
+        <Label Content="Especial" HorizontalAlignment="Left" Margin="66,218,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblcontenidoT" Content="" HorizontalAlignment="Left" Margin="266,309,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="10,315,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
     </Grid>
 </Page>

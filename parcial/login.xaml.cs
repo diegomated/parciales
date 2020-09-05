@@ -24,5 +24,27 @@ namespace parcial
         {
             InitializeComponent();
         }
+
+        private void btnclick_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtUser.Text == "diego" || txtUser.Text == "esteban")
+            {
+                if (txtUser.Text == "diego" && pswContra.Password == "123")
+                {
+                    MainWindow w = (MainWindow)Window.GetWindow(this);
+                    w.mainFrame.NavigationService.Navigate(new admin());
+                }
+                if (txtUser.Text == "esteban" && pswContra.Password == "321")
+                {
+                    MainWindow w2 = (MainWindow)Window.GetWindow(this);
+                    w2.mainFrame.NavigationService.Navigate(new empleado());
+                }   
+            }
+            else
+            {
+                MessageBox.Show("Username o Contraseña incorrecta");
+            }
+            
+        }
     }
 }
