@@ -7,7 +7,45 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Paginas\Batalla.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Paginas\CargarCrearPer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Paginas\CargarPersonaje.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Paginas\CrearPersonaje.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Paginas\Inicio.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Paginas\ModificarPersonaje.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Paginas\Batalla.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Paginas\CargarCrearPer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Paginas\CargarPersonaje.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Paginas\CrearPersonaje.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Paginas\Inicio.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Paginas\ModificarPersonaje.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

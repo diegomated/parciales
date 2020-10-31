@@ -1,0 +1,29 @@
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\bin\Debug\netcoreapp3.1\Firts Fantasy.exe
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\bin\Debug\netcoreapp3.1\Firts Fantasy.deps.json
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\bin\Debug\netcoreapp3.1\Firts Fantasy.runtimeconfig.json
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\bin\Debug\netcoreapp3.1\Firts Fantasy.runtimeconfig.dev.json
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\bin\Debug\netcoreapp3.1\Firts Fantasy.dll
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\bin\Debug\netcoreapp3.1\Firts Fantasy.pdb
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Firts Fantasy.csprojAssemblyReference.cache
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\Batalla.g.cs
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\CargarCrearPer.g.cs
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\CargarPersonaje.g.cs
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\CrearPersonaje.g.cs
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\Inicio.g.cs
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\ModificarPersonaje.g.cs
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Firts Fantasy_MarkupCompile.cache
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Firts Fantasy_MarkupCompile.lref
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\Batalla.baml
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\CargarCrearPer.baml
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\CargarPersonaje.baml
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\CrearPersonaje.baml
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\Inicio.baml
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Paginas\ModificarPersonaje.baml
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Firts Fantasy.g.resources
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Firts Fantasy.AssemblyInfoInputs.cache
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Firts Fantasy.AssemblyInfo.cs
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Firts Fantasy.dll
+C:\Users\yeyod\source\repos\parcial complemento\parcial\Firts Fantasy\Firts Fantasy\obj\Debug\netcoreapp3.1\Firts Fantasy.pdb

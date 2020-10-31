@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,14 +14,18 @@ using System.Windows.Shapes;
 namespace Firts_Fantasy
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para Batalla.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Batalla : Page
     {
-        public MainWindow()
+        public Batalla()
         {
             InitializeComponent();
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Firts Fantasy/1.0.0": {
+        "runtime": {
+          "Firts Fantasy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Firts Fantasy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

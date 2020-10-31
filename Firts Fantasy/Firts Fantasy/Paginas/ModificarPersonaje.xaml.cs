@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,14 +14,13 @@ using System.Windows.Shapes;
 namespace Firts_Fantasy
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para ModificarPersonaje.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ModificarPersonaje : Page
     {
-        public MainWindow()
+        public ModificarPersonaje()
         {
             InitializeComponent();
         }
-
     }
 }
