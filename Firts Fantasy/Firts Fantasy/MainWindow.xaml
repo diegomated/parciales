@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Frame Name="mainFrame" Content="" NavigationUIVisibility="Hidden" Source="/Firts Fantasy;component/Paginas/CargarCrearPer.xaml"/>
+        <Frame Name="mainFrame" Content="" NavigationUIVisibility="Hidden" Source="/Firts Fantasy;component/Paginas/CrearPersonaje.xaml"/>
 
     </Grid>
 </Window>
