@@ -143,9 +143,17 @@ namespace Firts_Fantasy
 
         private void btnContinue_Click(object sender, RoutedEventArgs e)
         {
-            SaveCharacter();
-            MainWindow w = (MainWindow)Window.GetWindow(this);
-            w.mainFrame.NavigationService.Navigate(new CargarPersonaje());
+            if(txtName.Text=="" || cmbClase.Text=="" || cmbArma.Text=="" || cmdArmadura.Text=="" || cmdObj1.Text== "" || cmdObj2.Text == "" || cmdObj3.Text == "")
+            {
+                MessageBox.Show("Debes llenar todas las casillas para continuar");
+            }
+            else
+            {
+                SaveCharacter();
+                MessageBox.Show("Personaje creado con exito");
+                MainWindow w = (MainWindow)Window.GetWindow(this);
+                w.mainFrame.NavigationService.Navigate(new CargarPersonaje());
+            }
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)

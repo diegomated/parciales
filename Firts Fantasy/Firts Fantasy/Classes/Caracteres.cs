@@ -9,6 +9,8 @@ namespace Firts_Fantasy.Classes
         static public List<Character> personajes = new List<Character>();
         static public List<Weapon> armas = new List<Weapon>();
         static public List<string> armaduras = new List<string>();
+
+
         static public string nombre;
     }
 }

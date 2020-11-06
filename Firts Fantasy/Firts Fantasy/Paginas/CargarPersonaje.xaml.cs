@@ -86,6 +86,7 @@ namespace Firts_Fantasy
 
         private void btnLoad_Click(object sender, RoutedEventArgs e)
         {
+            Caracteres.nombre = mirarNombre();
             MainWindow w = (MainWindow)Window.GetWindow(this);
             w.mainFrame.NavigationService.Navigate(new Batalla());
         }

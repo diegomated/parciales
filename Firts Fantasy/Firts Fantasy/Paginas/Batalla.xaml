@@ -24,14 +24,14 @@
         <Image Name="imgObj1" HorizontalAlignment="Left" Height="50" Margin="174,305,0,0" VerticalAlignment="Top" Width="50"/>
         <Image Name="imgObj2" HorizontalAlignment="Left" Height="37" Margin="224,318,0,0" VerticalAlignment="Top" Width="35"/>
         <Image Name="imgObj3" HorizontalAlignment="Left" Height="37" Margin="259,318,0,0" VerticalAlignment="Top" Width="35"/>
-        <Rectangle Name="recVidBoss" HorizontalAlignment="Left" Height="8" Margin="489,310,0,0" Stroke="Black" VerticalAlignment="Top" Width="179" Fill="#FF00FF15"/>
-        <Button Content="Attack" HorizontalAlignment="Center" VerticalAlignment="Center" Height="38" Width="100" FontSize="25" FontFamily="Elephant"/>
+        <Rectangle Name="recVidBoss" HorizontalAlignment="Left" Height="8" Margin="489,310,0,0" Stroke="Black" VerticalAlignment="Top" Width="179" Fill="#FF22FF00"/>
+        <Button Name="btnAtacar" Content="Attack" HorizontalAlignment="Center" VerticalAlignment="Center" Height="38" Width="100" FontSize="25" FontFamily="Elephant" Click="btnAtacar_Click"/>
         <Rectangle HorizontalAlignment="Left" Height="31" Margin="110,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="254"/>
-        <Label Content="Nombre" HorizontalAlignment="Left" Margin="110,83,0,0" VerticalAlignment="Top" Width="254" FontFamily="Elephant"/>
+        <Label Name="lblName" Content="Nombre" HorizontalAlignment="Left" Margin="110,83,0,0" VerticalAlignment="Top" Width="254" FontFamily="Elephant"/>
         <Rectangle HorizontalAlignment="Left" Height="31" Margin="110,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="127"/>
-        <Label Content="Clase" HorizontalAlignment="Left" Margin="110,123,0,0" VerticalAlignment="Top" Width="128" FontFamily="Elephant"/>
-        <Rectangle Name="recVidBoss_Copy" HorizontalAlignment="Left" Height="9" Margin="110,156,0,0" Stroke="Black" VerticalAlignment="Top" Width="254" Fill="#FF00FF15"/>
-        <Image Name="imgBoss" HorizontalAlignment="Left" Height="154" Margin="490,156,0,0" VerticalAlignment="Top" Width="176" Source="midir.jpg"/>
-        <Image Name="kkk" HorizontalAlignment="Left" Height="100" Margin="364,318,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Name="lblClase" Content="Clase" HorizontalAlignment="Left" Margin="110,123,0,0" VerticalAlignment="Top" Width="128" FontFamily="Elephant"/>
+        <Rectangle Name="recVidPly" HorizontalAlignment="Left" Height="9" Margin="110,156,0,0" Stroke="Black" VerticalAlignment="Top" Width="254" Fill="#FF00FF15"/>
+        <Image Name="imgBoss" HorizontalAlignment="Left" Height="154" Margin="490,156,0,0" VerticalAlignment="Top" Width="176"/>
+        <Label Name="lblDañoH" Content="" HorizontalAlignment="Left" Margin="578,96,0,0" VerticalAlignment="Top" FontFamily="Elephant"/>
     </Grid>
 </Page>
