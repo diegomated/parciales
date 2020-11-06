@@ -4,12 +4,17 @@ using System.Text;
 
 namespace Firts_Fantasy.Classes
 {
-    class Weapon
+    public abstract class Weapon
     {
-        private int damage;
         private int durability;
 
-        public int Damage { get => damage; set => damage = value; }
         public int Durability { get => durability; set => durability = value; }
+
+        public abstract int Daño();
+
+        public abstract string RutaAcc();
+
+        public abstract string Nombre();
+
     }
 }

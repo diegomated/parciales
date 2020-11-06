@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Firts_Fantasy.Classes
 {
-    class Hechicero : Character
+    public class Hechicero : Character
     {
+        public override string tipoClase()
+        {
+            return "Wizard";
+        }
     }
 }

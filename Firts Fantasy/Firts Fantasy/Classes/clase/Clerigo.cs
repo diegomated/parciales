@@ -4,9 +4,11 @@ using System.Text;
 
 namespace Firts_Fantasy.Classes
 {
-    class Clerigo : Character
+    public class Clerigo : Character
     {
-
-
+        public override string tipoClase()
+        {
+            return "Cleric";
+        }
     }
 }

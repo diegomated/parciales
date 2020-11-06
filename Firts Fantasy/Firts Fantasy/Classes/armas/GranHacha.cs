@@ -4,7 +4,21 @@ using System.Text;
 
 namespace Firts_Fantasy.Classes.armas
 {
-    class GranHacha : Weapon
+    public class GranHacha : Weapon
     {
+        public override int Daño()
+        {
+            return 19;
+        }
+
+        public override string RutaAcc()
+        {
+            return "/Images/gran-hacha.png";
+        }
+
+        public override string Nombre()
+        {
+            return "Gran Hacha";
+        }
     }
 }

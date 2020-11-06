@@ -7,11 +7,15 @@ namespace Firts_Fantasy.Classes
     public abstract class Character
     {
         private string name;
-        private int level;
-        private int expereince;
+        private List<string> inventory;
+        private Weapon arma;
+        private List<string> armadura;
 
         public string Name { get => name; set => name = value; }
-        public int Level { get => level; set => level = value; }
-        public int Expereince { get => expereince; set => expereince = value; }
+        public List<string> Inventory { get => inventory; set => inventory = value; }
+        public Weapon Arma { get => arma; set => arma = value; }
+        public List<string> Armadura { get => armadura; set => armadura = value; }
+
+        public abstract string tipoClase();
     }
 }

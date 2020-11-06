@@ -20,23 +20,43 @@
         </Grid.Background>
         <Rectangle HorizontalAlignment="Center" Height="350" Stroke="Black" VerticalAlignment="Center" Width="650" Fill="#FF3D3D3D"/>
         <Rectangle HorizontalAlignment="Left" Height="31" Margin="110,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="254"/>
-        <Label Content="Nombre" HorizontalAlignment="Left" Margin="110,83,0,0" VerticalAlignment="Top" Width="254" FontFamily="Elephant"/>
+        <Label Name="lblName" Content="" HorizontalAlignment="Left" Margin="110,83,0,0" VerticalAlignment="Top" Width="254" FontSize="18" FontFamily="Elephant"/>
         <Rectangle HorizontalAlignment="Left" Height="31" Margin="110,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="127"/>
-        <Label Content="Clase" HorizontalAlignment="Left" Margin="110,123,0,0" VerticalAlignment="Top" Width="128" FontFamily="Elephant"/>
-        <Image Name="imgArmadura" HorizontalAlignment="Left" Height="50" Margin="112,305,0,0" VerticalAlignment="Top" Width="50"/>
-        <Image Name="imgArma" HorizontalAlignment="Left" Height="48" Margin="143,244,0,0" VerticalAlignment="Top" Width="50"/>
-        <Image Name="imgObj1" HorizontalAlignment="Left" Height="50" Margin="174,305,0,0" VerticalAlignment="Top" Width="50"/>
-        <Image Name="imgObj2" HorizontalAlignment="Left" Height="37" Margin="224,318,0,0" VerticalAlignment="Top" Width="35"/>
-        <Image Name="imgObj3" HorizontalAlignment="Left" Height="37" Margin="259,318,0,0" VerticalAlignment="Top" Width="35"/>
-        <ComboBox HorizontalAlignment="Left" Height="32" Margin="464,147,0,0" VerticalAlignment="Top" Width="184"/>
-        <ComboBox HorizontalAlignment="Left" Height="32" Margin="464,193,0,0" VerticalAlignment="Top" Width="184"/>
-        <ComboBox HorizontalAlignment="Left" Height="32" Margin="464,242,0,0" VerticalAlignment="Top" Width="184"/>
-        <ComboBox HorizontalAlignment="Left" Height="32" Margin="416,314,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Height="32" Margin="578,314,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Arma" HorizontalAlignment="Left" Margin="360,148,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
-        <Label Content="Armadura" HorizontalAlignment="Left" Margin="360,193,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
-        <Label Content="Obejeto 1" HorizontalAlignment="Left" Margin="360,243,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
-        <Label Content="Objeto 2" HorizontalAlignment="Left" Margin="416,280,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
-        <Label Content="Obejo 3" HorizontalAlignment="Left" Margin="578,280,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
+        <Label Name="lblClase" Content="" HorizontalAlignment="Left" Margin="110,123,0,0" VerticalAlignment="Top" Width="128" FontSize="18" FontFamily="Elephant"/>
+        <ComboBox Name="cmbArma" HorizontalAlignment="Left" Height="32" Margin="468,122,0,0" VerticalAlignment="Top" Width="184" FontSize="18" FontFamily="Elephant">
+            <ComboBoxItem Content="Gran Guadana" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Gran Hacha" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Zweihander" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+        </ComboBox>
+        <ComboBox Name="cmbArmadur" HorizontalAlignment="Left" Height="32" Margin="468,168,0,0" VerticalAlignment="Top" Width="184" FontSize="18" FontFamily="Elephant">
+            <ComboBoxItem Content="Arm Muertos" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Arm Bailarina" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Arm Faraam" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+        </ComboBox>
+        <ComboBox Name="cmbObj1" HorizontalAlignment="Left" Height="32" Margin="468,217,0,0" VerticalAlignment="Top" Width="184" FontSize="18" FontFamily="Elephant">
+            <ComboBoxItem Content="Estus" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Estus Ceniza" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Resina Carbon" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Resina Dorada" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+        </ComboBox>
+        <ComboBox Name="cmbObj2" HorizontalAlignment="Left" Height="32" Margin="420,289,0,0" VerticalAlignment="Top" Width="120" FontSize="18" FontFamily="Elephant">
+            <ComboBoxItem Content="Estus" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Estus Ceniza" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Resina Carbon" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Resina Dorada" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+        </ComboBox>
+        <ComboBox Name="cmbObj3" HorizontalAlignment="Left" Height="32" Margin="582,289,0,0" VerticalAlignment="Top" Width="120" FontSize="18" FontFamily="Elephant">
+            <ComboBoxItem Content="Estus" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Estus Ceniza" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Resina Carbon" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+            <ComboBoxItem Content="Resina Dorada" FontSize="20" FontFamily="Elephant"></ComboBoxItem>
+        </ComboBox>
+        <Label Content="Arma" HorizontalAlignment="Left" Margin="364,123,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
+        <Label Content="Armadura" HorizontalAlignment="Left" Margin="364,168,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
+        <Label Content="Obejeto 1" HorizontalAlignment="Left" Margin="364,218,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
+        <Label Content="Objeto 2" HorizontalAlignment="Left" Margin="420,255,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
+        <Label Content="Obejo 3" HorizontalAlignment="Left" Margin="582,255,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="15" Width="90"/>
+        <Button Name="btnContinue" Content="Continue" HorizontalAlignment="Left" Margin="434,336,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="20" Width="104" Click="btnContinue_Click"/>
+        <Button Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="580,336,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="20" Width="104" Click="btnCancel_Click"/>
     </Grid>
 </Page>

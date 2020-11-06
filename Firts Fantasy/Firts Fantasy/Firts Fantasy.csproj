@@ -7,4 +7,32 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\Amr-muertos.png" />
+    <None Remove="Images\Arm-bailarina.png" />
+    <None Remove="Images\Arm-faraam.png" />
+    <None Remove="Images\Estus-Ceniza.png" />
+    <None Remove="Images\Estus.png" />
+    <None Remove="Images\gran-guadana.png" />
+    <None Remove="Images\gran-hacha.png" />
+    <None Remove="Images\midir.png" />
+    <None Remove="Images\Resina-Carbon.png" />
+    <None Remove="Images\Resina-Dorada.png" />
+    <None Remove="Images\zweihander.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Amr-muertos.png" />
+    <Resource Include="Images\Arm-bailarina.png" />
+    <Resource Include="Images\Arm-faraam.png" />
+    <Resource Include="Images\Estus-Ceniza.png" />
+    <Resource Include="Images\Estus.png" />
+    <Resource Include="Images\gran-guadana.png" />
+    <Resource Include="Images\gran-hacha.png" />
+    <Resource Include="Images\midir.png" />
+    <Resource Include="Images\Resina-Carbon.png" />
+    <Resource Include="Images\Resina-Dorada.png" />
+    <Resource Include="Images\zweihander.png" />
+  </ItemGroup>
+
 </Project>

@@ -19,9 +19,6 @@
     <Compile Update="Paginas\CrearPersonaje.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Paginas\Inicio.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Paginas\ModificarPersonaje.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -37,9 +34,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Paginas\CrearPersonaje.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Paginas\Inicio.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

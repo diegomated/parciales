@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Firts_Fantasy.Classes;
 
 namespace Firts_Fantasy
 {
@@ -21,12 +22,21 @@ namespace Firts_Fantasy
         public CargarCrearPer()
         {
             InitializeComponent();
+
+            if (Caracteres.personajes.Count == 0)
+            {
+                Load.IsEnabled = false;
+            }
+            else
+            {
+                Load.IsEnabled = true;
+            }
         }
 
         private void Load_Click(object sender, RoutedEventArgs e)
         {
             MainWindow w = (MainWindow)Window.GetWindow(this);
-            w.mainFrame.NavigationService.Navigate(new CrearPersonaje());
+            w.mainFrame.NavigationService.Navigate(new CargarPersonaje());
         }
 
         private void Create_Click(object sender, RoutedEventArgs e)

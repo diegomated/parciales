@@ -24,8 +24,6 @@
         <Image Name="imgObj1" HorizontalAlignment="Left" Height="50" Margin="174,305,0,0" VerticalAlignment="Top" Width="50"/>
         <Image Name="imgObj2" HorizontalAlignment="Left" Height="37" Margin="224,318,0,0" VerticalAlignment="Top" Width="35"/>
         <Image Name="imgObj3" HorizontalAlignment="Left" Height="37" Margin="259,318,0,0" VerticalAlignment="Top" Width="35"/>
-        <Rectangle Name="recVidArma" HorizontalAlignment="Left" Height="5" Margin="143,292,0,0" Stroke="Black" VerticalAlignment="Top" Width="50"/>
-        <Rectangle Name="recVidArmadura" HorizontalAlignment="Left" Height="5" Margin="112,355,0,0" Stroke="Black" VerticalAlignment="Top" Width="50"/>
         <Rectangle Name="recVidBoss" HorizontalAlignment="Left" Height="8" Margin="489,310,0,0" Stroke="Black" VerticalAlignment="Top" Width="179" Fill="#FF00FF15"/>
         <Button Content="Attack" HorizontalAlignment="Center" VerticalAlignment="Center" Height="38" Width="100" FontSize="25" FontFamily="Elephant"/>
         <Rectangle HorizontalAlignment="Left" Height="31" Margin="110,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="254"/>

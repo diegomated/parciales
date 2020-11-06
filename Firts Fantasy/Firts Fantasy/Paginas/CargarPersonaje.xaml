@@ -19,18 +19,37 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Rectangle HorizontalAlignment="Center" Height="350" Stroke="Black" VerticalAlignment="Center" Width="650" Fill="#FF3D3D3D"/>
-        <ComboBox HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Width="396" Height="52"/>
-        <Button Content="Load" HorizontalAlignment="Left" Margin="202,321,0,0" VerticalAlignment="Top" Height="45" Width="112" FontSize="25" FontFamily="Elephant"/>
-        <Button Content="Modify" HorizontalAlignment="Center" Margin="0,321,0,0" VerticalAlignment="Top" Height="45" Width="112" FontSize="25" FontFamily="Elephant"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Margin="486,321,0,0" VerticalAlignment="Top" Height="45" Width="112" FontSize="25" FontFamily="Elephant"/>
+        <ComboBox Name="cmbPersonajes" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Width="396" Height="52"  FontSize="25" FontFamily="Elephant" SelectionChanged="cmbPersonajes_SelectionChanged"/>
+        <Button Name="btnLook" Content="Look" HorizontalAlignment="Left" Margin="280,321,0,0" VerticalAlignment="Top" Height="45" Width="112" FontSize="25" FontFamily="Elephant" Click="btnLook_Click" IsEnabled="False"/>
+        <Button Name="btnModify" Content="Modify" HorizontalAlignment="Left" Margin="412,321,0,0" VerticalAlignment="Top" Height="45" Width="112" FontSize="25" FontFamily="Elephant" Click="btnModify_Click" IsEnabled="False"/>
+        <Button Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="543,321,0,0" VerticalAlignment="Top" Height="45" Width="112" FontSize="25" FontFamily="Elephant" Click="btnDelete_Click" IsEnabled="False"/>
         <Rectangle HorizontalAlignment="Left" Height="31" Margin="202,174,0,0" Stroke="Black" VerticalAlignment="Top" Width="254"/>
-        <Label Name="lblNombre" Content="Label" HorizontalAlignment="Left" Margin="202,177,0,0" VerticalAlignment="Top" Width="254" FontFamily="Elephant"/>
+        <Label Name="lblNombre" Content="" HorizontalAlignment="Left" Margin="202,177,0,0" VerticalAlignment="Top" Width="254" FontFamily="Elephant"/>
         <Rectangle HorizontalAlignment="Left" Height="31" Margin="202,237,0,0" Stroke="Black" VerticalAlignment="Top" Width="127"/>
-        <Label Name="lblClase" Content="Label" HorizontalAlignment="Left" Margin="202,240,0,0" VerticalAlignment="Top" Width="127" FontFamily="Elephant"/>
-        <Rectangle Name="rctArmadura" HorizontalAlignment="Left" Height="50" Margin="486,240,0,0" Stroke="Black" VerticalAlignment="Top" Width="50"/>
-        <Rectangle Name="rctArma" HorizontalAlignment="Left" Height="50" Margin="517,177,0,0" Stroke="Black" VerticalAlignment="Top" Width="50"/>
-        <Rectangle Name="rctObejeto1" HorizontalAlignment="Left" Height="50" Margin="548,240,0,0" Stroke="Black" VerticalAlignment="Top" Width="50"/>
-        <Rectangle Name="rctObejeto2" HorizontalAlignment="Left" Height="37" Margin="598,253,0,0" Stroke="Black" VerticalAlignment="Top" Width="35"/>
-        <Rectangle Name="rctObejeto3" HorizontalAlignment="Left" Height="37" Margin="633,253,0,0" Stroke="Black" VerticalAlignment="Top" Width="35"/>
+        <Label Name="lblClase" Content="" HorizontalAlignment="Left" Margin="202,240,0,0" VerticalAlignment="Top" Width="127" FontFamily="Elephant"/>
+        <Button Name="btnLoad" Content="Load" HorizontalAlignment="Left" Margin="148,321,0,0" VerticalAlignment="Top" Height="45" Width="112" FontSize="25" FontFamily="Elephant" Click="btnLoad_Click" IsEnabled="False"/>
+        <Button Name="btnBack" Content="Back" HorizontalAlignment="Left" Height="41" Margin="89,65,0,0" VerticalAlignment="Top" Width="91" FontSize="25" FontFamily="Elephant" Click="btnBack_Click"/>
+        <Image Name="imgArmadura" HorizontalAlignment="Left" Height="50" Margin="471,240,0,0" VerticalAlignment="Top" Width="50" MouseEnter="imgArmadura_MouseEnter" MouseLeave="imgArmadura_MouseLeave"/>
+        <Image Name="imgArma" HorizontalAlignment="Left" Height="48" Margin="502,179,0,0" VerticalAlignment="Top" Width="50" MouseEnter="imgArma_MouseEnter" MouseLeave="imgArma_MouseLeave"/>
+        <Image Name="imgObj1" HorizontalAlignment="Left" Height="50" Margin="533,240,0,0" VerticalAlignment="Top" Width="50" MouseEnter="imgObj1_MouseEnter" MouseLeave="imgObj1_MouseLeave"/>
+        <Image Name="imgObj2" HorizontalAlignment="Left" Height="37" Margin="583,253,0,0" VerticalAlignment="Top" Width="35" MouseEnter="imgObj2_MouseEnter" MouseLeave="imgObj2_MouseLeave"/>
+        <Image Name="imgObj3" HorizontalAlignment="Left" Height="37" Margin="618,253,0,0" VerticalAlignment="Top" Width="35" MouseEnter="imgObj3_MouseEnter" MouseLeave="imgObj3_MouseLeave"/>
+        <Rectangle Name="DatosRct" HorizontalAlignment="Left" Height="57" Margin="361,145,0,0" Stroke="Black" VerticalAlignment="Top" Width="136" Fill="#FF4C4B4B" Visibility="Hidden"/>
+        <Label Name="DatosName" Content="Label" HorizontalAlignment="Left" Margin="362,146,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Label Name="DatosArma" Content="Arma" HorizontalAlignment="Left" Margin="362,174,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Label Name="DatosDaño" Content="Label" HorizontalAlignment="Left" Margin="452,174,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Rectangle Name="Datos2Rct" HorizontalAlignment="Left" Height="57" Margin="327,199,0,0" Stroke="Black" VerticalAlignment="Top" Width="136" Fill="#FF4C4B4B" Visibility="Hidden"/>
+        <Label Name="Datos2Name" Content="Label" HorizontalAlignment="Left" Margin="332,202,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Label Name="DatosArmadura" Content="Armadura" HorizontalAlignment="Left" Margin="332,230,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Rectangle Name="Datos3Rct" HorizontalAlignment="Left" Height="57" Margin="594,190,0,0" Stroke="Black" VerticalAlignment="Top" Width="136" Fill="#FF4C4B4B" Visibility="Hidden"/>
+        <Label Name="Datos3Name" Content="Label" HorizontalAlignment="Left" Margin="599,194,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Label Name="DatosObj1" Content="Objeto" HorizontalAlignment="Left" Margin="599,218,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Rectangle Name="Datos4Rct" HorizontalAlignment="Left" Height="57" Margin="599,190,0,0" Stroke="Black" VerticalAlignment="Top" Width="136" Fill="#FF4C4B4B" Visibility="Hidden"/>
+        <Label Name="Datos4Name" Content="Label" HorizontalAlignment="Left" Margin="604,194,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Label Name="DatosObj2" Content="Objeto" HorizontalAlignment="Left" Margin="604,218,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Rectangle Name="Datos5Rct" HorizontalAlignment="Left" Height="57" Margin="630,190,0,0" Stroke="Black" VerticalAlignment="Top" Width="136" Fill="#FF4C4B4B" Visibility="Hidden"/>
+        <Label Name="Datos5Name" Content="Label" HorizontalAlignment="Left" Margin="635,194,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+        <Label Name="DatosObj3" Content="Objeto" HorizontalAlignment="Left" Margin="635,218,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Elephant" Visibility="Hidden"/>
+
     </Grid>
 </Page>
